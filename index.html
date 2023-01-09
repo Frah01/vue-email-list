@@ -14,7 +14,6 @@
     <div id="app" class="container">
         <div class="m-2 text-center">
             <ul class="list-group">
-                <!-- Ciclo per stampare la lista delle mail con controllo per stamparle tutte insieme (bonus) -->
                 <li class="list-group-item" v-if="emailArray.length == 10" v-for="(item, index) in emailArray" >
                     {{emailArray[index]}}
                 </li>
